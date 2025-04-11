@@ -40,7 +40,7 @@ Want to try or improve it? Follow these steps!
    - Set up database: Run `sqlite3 database.db` and `.read schema.sql`.
    - Start it: `python app.py` (see it at `http://localhost:5000`).
 3. **Run Ollama**:
-   - Start Ollama: `ollama run llama3` (or your model).
+   - Start Ollama: `ollama run llama3` .
 
 
 ## Project Structure
