@@ -14,7 +14,6 @@ It’s powered by Ollama AI, React, Flask, and SQLite, using `customer_data_coll
 ## Team
 - **Team Name**: AI_PersonalizeCart
 - **Team Leader**: Paromita Karmakar
-- **Members**: [Add names if any]
 
 ## How It Works
 - **For Shoppers**: Get tailored recommendations, smart carts, and eco-scores.
@@ -31,23 +30,17 @@ Want to try or improve it? Follow these steps!
 - **Ollama**: For AI features (install from [ollama.ai/docs](https://ollama.ai/docs)).
 
 ### Installation
-1. **Clone the Repo**:
-   - Run `git clone https://github.com/yourusername/AI_PersonalizeCart.git` (replace with your repo URL).
-2. **Set Up Frontend**:
+1. **Set Up Frontend**:
    - CD into `frontend`: `cd frontend`.
    - Install stuff: `npm install`.
    - Start it: `npm start` (see it at `http://localhost:3000`).
-3. **Set Up Backend**:
+2. **Set Up Backend**:
    - CD into `backend`: `cd backend`.
    - Install Python packages: `pip install flask sqlite3 ollama`.
    - Set up database: Run `sqlite3 database.db` and `.read schema.sql`.
    - Start it: `python app.py` (see it at `http://localhost:5000`).
-4. **Run Ollama**:
+3. **Run Ollama**:
    - Start Ollama: `ollama run llama3` (or your model).
 
-### Usage
-- Open `http://localhost:3000` in your browser.
-- Test APIs at `http://localhost:5000/recommend/1` (example).
-- Check the seller dashboard for demand and eco-scores.
 
 ## Project Structure
